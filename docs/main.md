@@ -41,9 +41,9 @@ Starter template for frontend projects with full customization.
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/aldi-rahmaddani/vue-shadcn-starter.git
+git clone https://github.com/aldi-rahmaddani/react-shadcn-starter.git
 
-cd vue-shadcn-starter
+cd react-shadcn-starter
 
 pnpm install
 ```
@@ -166,7 +166,3 @@ fix(ui): resolve button alignment issue
 ## ⚖️ License
 
 Licensed under the [MIT license](https://github.com/aldi-rahmaddani/vue-shadcn-starter/blob/main/LICENSE.md).
-
----
-
-\*\*Note: Modify this README.md file according to your project needs.
