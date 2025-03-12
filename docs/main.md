@@ -159,7 +159,6 @@ fix(ui): resolve button alignment issue
 | chore    | Minor changes (dependency updates, build process, etc.) |
 | test     | Add or update tests                                     |
 | refactor | Code changes without changing functionality             |
-| refactor | Code changes without changing functionality             |
 | ci       | Changes to CI/CD configuration                          |
 | docs     | Documentation updates                                   |
 
