@@ -4,37 +4,39 @@ Starter template for frontend projects with full customization.
 
 ## Table of Contents
 
-- [Tech stack](#🚀-tech-stack)
-- [Installation](#⚙️-installation)
-- [Available Scripts](#📜-available-scripts)
-- [Project Structure](#🏗️-project-structure)
-- [Conventional Commits](#✍️-conventional-commits)
-- [License](#⚖️-license)
+- [Tech stack](#-tech-stack)
+- [Installation](#-installation)
+- [Available Scripts](#-available-scripts)
+- [Adding ui components](#-adding-ui-components)
+- [Project Structure](#-project-structure)
+- [Conventional Commits](#-conventional-commits)
+- [License](#-license)
 
 ## 🚀 Tech Stack
 
 ### Package Manager
 
-![pnpm](https://img.shields.io/badge/-Pnpm-F69220?logo=pnpm&logoColor=fff&style=for-the-badge)
+[![pnpm](https://img.shields.io/badge/-Pnpm-F69220?logo=pnpm&logoColor=fff&style=for-the-badge)](https://pnpm.io)
 
 ### Library
 
-![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
-![Vue](https://img.shields.io/badge/-Vue-4FC08D?logo=react&logoColor=fff&style=for-the-badge)
-![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
-![Shadcn UI](https://img.shields.io/badge/-Shadcn_UI-000000?logo=shadcn/ui&logoColor=fff&style=for-the-badge)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+[![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)](https://vite.dev)
+[![Vue](https://img.shields.io/badge/-Vue-4FC08D?logo=react&logoColor=fff&style=for-the-badge)](https://vuejs.org)
+[![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)](https://www.typescriptlang.org)
+[![Shadcn UI](https://img.shields.io/badge/-Shadcn_UI-000000?logo=shadcn/ui&logoColor=fff&style=for-the-badge)](https://ui.shadcn.com)
+[![Lucide Icons](https://img.shields.io/badge/-Lucide_Icons-F56565?logo=lucide&logoColor=fff&style=for-the-badge)](http://lucide.dev)
+[![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)](https://tailwindcss.com)
 
 ### Linter and Formatter
 
-![ESLint](https://img.shields.io/badge/-Eslint-4B32C3?logo=ESLint&logoColor=fff&style=for-the-badge)
-![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=000&style=for-the-badge)
-![Editor Config](https://img.shields.io/badge/-Editor_Config-FEFEFE?logo=editorconfig&logoColor=000&style=for-the-badge)
+[![ESLint](https://img.shields.io/badge/-Eslint-4B32C3?logo=ESLint&logoColor=fff&style=for-the-badge)](https://eslint.org)
+[![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=000&style=for-the-badge)](https://prettier.io)
+[![Editor Config](https://img.shields.io/badge/-Editor_Config-FEFEFE?logo=editorconfig&logoColor=000&style=for-the-badge)](https://editorconfig.org)
 
 ### Precommit Hooks
 
-- Husky
-- Lint Staged
+- [Husky](https://typicode.github.io/husky)
+- [Lint Staged](https://www.npmjs.com/package/lint-staged)
 
 ## ⚙️ Installation
 
@@ -84,6 +86,18 @@ pnpm lint
 
 ```bash
 pnpm prepare
+```
+
+## 📦 Adding UI Components
+
+To add components from shadcn ui, you can refer to the following link:
+
+➡️ [Shadcn vue documentation](https://www.shadcn-vue.com/docs/introduction.html)
+
+### Example adding component with cli
+
+```bash
+pnpm dlx shadcn-vue@latest add button
 ```
 
 ## 🏗️ Project Structure
